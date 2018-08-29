@@ -21,9 +21,15 @@ class ViewController: UIViewController {
     }
 
     func hello(){
-        
         print("Hello World");
+        
+        for i in 0...2 {
+            print(i);
+        }
     }
+    
+    
+    
     
 }
 
